@@ -62,7 +62,7 @@ function AllProjects() {
           ReactProjects.map((ele, index, array) => {
 
             return (
-              <div className="card">
+              <div className="cardss">
               <img
                 src="https://www.sprintonweb.com/wp-content/uploads/2018/07/15-Medinova-thumb-899x599.jpg"
                 alt=""
