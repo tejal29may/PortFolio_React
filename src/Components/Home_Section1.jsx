@@ -13,12 +13,12 @@ function Home_Section1() {
         <div className="left animate__animated animate__fadeInUp animate__slow">
           <h1>helllo 👋.</h1>
           <p>
-            I am <span style={{ color: "rgb(252, 16, 86)" }}>Tejal Mohod,</span>
+            I am <span style={{ color: "red" }}>Tejal Mohod,</span>
           </p>
           <TypingAnimator
       textArray={textArray}
       cursorColor="#333"
-      textColor="#555"
+      textColor="rgb(19, 185, 185)"
       fontSize="26px"
       loop
       typingSpeed={60}

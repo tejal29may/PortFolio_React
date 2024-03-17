@@ -89,6 +89,9 @@
   padding: 10px 40px;
   font-size: 22px;
   border-radius: 5px;
-  background-color: rgb(252, 16, 86);
+  /* background-color: rgb(252, 16, 86); */
+  background-color: rgb(19, 185, 185);
+
+  color: black;
   
 }

@@ -1,0 +1,36 @@
+.card{
+    width: 1000px;
+    /* height: 150px; */
+    border: 2px solid white;
+    margin: 2% auto;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.card .upper{
+    width: 100%;
+    /* border: 2px solid blue; */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    
+  
+    
+}
+.card .upper h1,h3{
+    color: rgb(19, 185, 185);
+}
+#hred{
+    border: none;
+    height: 1px;
+    background-color: white;
+    width: 100%;
+}
+.card .lower {
+padding: 20px 30px;
+}
+.card .lower p{
+    font-size: 22px;
+    color: rgb(153, 152, 152);
+}

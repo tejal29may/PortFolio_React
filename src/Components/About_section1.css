@@ -36,7 +36,17 @@ body{
     font-family: "Google Sans Medium";
     line-height: 1.1;
     text-align: center;
+
     /* margin-top: 100px; */
+}
+#hr{
+    margin-bottom: 2%;
+    width: 50%;
+    margin-left: 20px;
+    color: red;
+    height: 2px;
+    border: none;
+    background-color: red;
 }
 .aboutMain .right p{
     font-size: 20px;
