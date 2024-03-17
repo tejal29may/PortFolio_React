@@ -1,0 +1,43 @@
+.second h1{
+    font-size: 60px;
+    line-height: 1.1;
+    font-family: "Google Sans Regular";
+    text-align: center;
+    margin-top: 2%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+.content .right{
+    margin-top: 6%;
+}
+.content .right h1{
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Google Sans Regular";
+}
+.tools .upper ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    
+}
+.tools li{
+    width: 80px;
+    height: 60px;
+    list-style: none;
+    margin-right: 4%;
+    margin-bottom: 8%;
+    margin-left: 2%;
+}
+.tools .lower p{
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 1.5;
+}

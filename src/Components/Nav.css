@@ -1,0 +1,36 @@
+.nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    /* gap: 20%; */
+    align-items: center;
+    /* border: 3px solid green; */
+    width: 100%;
+}
+
+.nav .left p {
+    font-weight: 700;
+    padding: 0 10px;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin-left: -70px;
+    /* margin-right: 2%; */
+
+}
+
+.nav .right ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10%;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.active{
+    color: rgb(252, 16, 86);
+}
+li{
+    text-decoration: none;
+}
