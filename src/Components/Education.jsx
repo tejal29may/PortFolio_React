@@ -30,7 +30,7 @@ function Education() {
     <>
       {data.map((ele, index, array) => {
         return (
-          <div className="card">
+          <div className="cardss">
             <div className="upper">
               <h1>{ele.degree}</h1>
               <h3 style={{color:"red"}}>{ele.year}</h3>

@@ -1,4 +1,4 @@
-.card{
+.cardss{
     width: 1000px;
     /* height: 150px; */
     border: 2px solid white;
@@ -6,7 +6,7 @@
     border-radius: 10px;
     margin-bottom: 5%;
 }
-.card .upper{
+.cardss .upper{
     width: 100%;
     /* border: 2px solid blue; */
     height: 80px;
@@ -18,7 +18,7 @@
   
     
 }
-.card .upper h1,h3{
+.cardss .upper h1,h3{
     color: rgb(19, 185, 185);
 }
 #hred{
@@ -27,10 +27,10 @@
     background-color: white;
     width: 100%;
 }
-.card .lower {
+.cardss .lower {
 padding: 20px 30px;
 }
-.card .lower p{
+.cardss .lower p{
     font-size: 22px;
     color: rgb(153, 152, 152);
 }

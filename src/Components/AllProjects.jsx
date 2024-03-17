@@ -62,11 +62,11 @@ function AllProjects() {
           ReactProjects.map((ele, index, array) => {
 
             return (
-              <div className="cardss">
+              <div className="card">
               <img
                 src="https://www.sprintonweb.com/wp-content/uploads/2018/07/15-Medinova-thumb-899x599.jpg"
                 alt=""
-              width={300} height={180}
+              width={300} height={170}
                 style={{ position: "absolute",objectFit:"contain",display:"flex", justifyContent:"center",alignItems:"center"}}
               />
               <div className="card-content">

@@ -18,7 +18,7 @@ function Award() {
     <>
     {data.map((ele, index, array) => {
       return (
-        <div className="card">
+        <div className="cardss">
             <div className="upper">
               <h1>{ele.year}</h1>
              <img src={ele.img} alt="" width={60}/>

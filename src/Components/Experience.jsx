@@ -31,7 +31,7 @@ function Experience() {
     <>
       {data.map((ele, index, array) => {
         return (
-          <div className="card">
+          <div className="cardss">
             <div className="upper">
               <h1>{ele.year}</h1>
             </div>
