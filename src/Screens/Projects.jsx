@@ -2,6 +2,7 @@ import React from 'react'
 import Example from '../Components/FaqType'
 import Nav from '../Components/Nav'
 import ProjectSection1 from '../Components/ProjectSection1'
+
 import "../App.css"
 function Projects() {
   return (

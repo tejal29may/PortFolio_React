@@ -16,7 +16,7 @@ function Nav() {
             <li><NavLink to="/About" style={{textDecoration:"none"}}>About</NavLink></li>
             <li><NavLink to="/Projects" style={{textDecoration:"none"}}>Projects</NavLink></li>
             <li><NavLink to="/Contact" style={{textDecoration:"none"}}>Contact </NavLink></li>
-            <li>Experience</li>
+            
             <li><button>Mode</button></li>
             
           </ul>

@@ -1,69 +1,84 @@
 import React from "react";
 import "../Components/AllProjects.css";
 
-function AllProjects() {
+function JSProjects() {
   const ReactProjects = [
     {
       img: "",
-      Projectname: "Educational planner",
-      Tech: "React",
+      Projectname: "Emoji Finder",
+      Tech: "JavaScript",
       githubLink:
-        "https://github.com/tejal29may/ReactAssignment/tree/main/Assignment5_Classwork",
+        "https://github.com/tejal29may/Emoji_Finder",
       HostedLink:
-        "https://65e8ba91064fd231cf9dd2bd--majestic-gelato-cd879d.netlify.app/",
+        "https://emoji-finder-three.vercel.app/",
     },
     {
       img: "",
-      Projectname: " Lorem  Generator ",
-      Tech: "React",
+      Projectname: " Pokemon Project ",
+      Tech: "JavaScript",
       githubLink:
-        "https://github.com/tejal29may/ReactAssignment/tree/main/Assignment5_HomeWork",
+        "https://github.com/tejal29may/POKEMON",
       HostedLink:
-        "https://65e765797fe8334bff715741--vocal-figolla-1093ab.netlify.app/",
+        "https://pokemon-seven-beryl.vercel.app/",
     },
     {
       img: "",
-      Projectname: "Shopping Cart",
-      Tech: "React",
+      Projectname: " Image Search App",
+      Tech: "JavaScript",
       githubLink:
-        "https://github.com/tejal29may/ReactAssignment/tree/main/Assignment6_Cardt_Classwork",
+        "https://github.com/tejal29may/Image_search_app",
       HostedLink:
-        "https://65ea2224a246ac67fd49fc3e--starlit-rabanadas-0186d6.netlify.app/",
+        "https://image-search-app-liard.vercel.app/",
     },
 
     {
       img: "",
-      Projectname: "Grocery Bud",
-      Tech: "React",
+      Projectname: "Joke Generator",
+      Tech: "JavaScript",
       githubLink:
-        "https://github.com/tejal29may/ReactAssignment/tree/main/Assignment7_Classwork",
+        "https://github.com/tejal29may/Dad_Joke_Teller",
       HostedLink:
-        "https://65f17b87ef7004c37300b621--earnest-smakager-397764.netlify.app/",
+        "https://dad-joke-teller.vercel.app/",
     },
     {
       img: "",
-      Projectname: "Gym Page",
-      Tech: "React",
+      Projectname: "Stop Watch",
+      Tech: "JavaScript",
       githubLink:
-        "https://github.com/tejal29may/ReactAssignment/tree/main/Assignment9_Classwork_GymWebsite",
+        "https://github.com/tejal29may/Stop_Watch",
       HostedLink:
-        "https://github.com/tejal29may/ReactAssignment/tree/main/Assignment9_Classwork_GymWebsite",
+        "https://stop-watch-nu-one.vercel.app/",
     },
     {
       img: "",
       Projectname: "Geek Food Site",
-      Tech: "React",
+      Tech: "JavaScript",
       githubLink:
         "https://github.com/tejal29may/ReactAssignment/tree/main/Assignment3_classWork",
       HostedLink: "https://react-assignment-vyru.vercel.app/",
     },
     {
       img: "",
-      Projectname: "Portfolio",
-      Tech: "React",
-      githubLink: "https://github.com/tejal29may/PortFolio_React",
-      HostedLink: "https://port-folio-react-ten.vercel.app/",
+      Projectname: "LeaderBoard Project",
+      Tech: "JavaScript",
+      githubLink: "https://github.com/tejal29may/leaderBoard",
+      HostedLink: "https://leader-board-sand.vercel.app/",
     },
+    {
+        img: "",
+        Projectname: "Digital Clock",
+        Tech: "JavaScript",
+        githubLink: "https://github.com/tejal29may/Digital_Clock",
+        HostedLink: "https://digital-clock-five-flame.vercel.app/",
+      },
+      {
+        img: "",
+        Projectname: "Invoice Generator",
+        Tech: "JavaScript",
+        githubLink: "https://github.com/Jinu-Vijayan/JS_GEEKATHON_TEAM14/tree/main/Tejal",
+        HostedLink: "https://invoice-generator-gamma-rust.vercel.app/",
+      },
+      
   ];
 
   return (
@@ -74,9 +89,9 @@ function AllProjects() {
             <div className="card" >
               
                 <img
-                  src="https://wallpapercave.com/wp/wp5542781.jpg"
+                  src="https://th.bing.com/th/id/OIP.4LVKPoqv9bp7GRFNIWvunQHaHa?rs=1&pid=ImgDetMain"
                   alt=""
-                  width={290}
+                  width={300}
                   height={180}
                   style={{
                     position: "absolute",
@@ -94,7 +109,7 @@ function AllProjects() {
               <div className="card-content">
                 <h2 className="card-title">{ele.Projectname}</h2>
                 <p className="card-body">
-                  This Project is Build with React js ,You can check github repo
+                  This Project is Build with javaScript ,You can check github repo
                   and live demo of project here.!
                 </p>
                 <a href={ele.githubLink} className="button">
@@ -113,4 +128,4 @@ function AllProjects() {
   );
 }
 
-export default AllProjects;
+export default JSProjects;

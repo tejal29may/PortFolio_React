@@ -1,5 +1,9 @@
 import React from 'react';
 import AllProjects from './AllProjects';
+import JSProjects from './JSProjects';
+import HtmlProjects from './HtmlProjects';
+import TailwindProject from './TailwindProject';
+import FigmaProjects from './FigmaProjects';
 import {
     Accordion,
     AccordionItem,
@@ -29,14 +33,12 @@ export default function Example() {
             <AccordionItem style={{border:"2px solid white"}}>
                 <AccordionItemHeading>
                     <AccordionItemButton style={{backgroundColor:"rgb(29, 29, 29)", color:"rgb(19, 185, 185)", fontSize:"30px"}}>
-                       JavaScript
+                     JavaScript
                     </AccordionItemButton>
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                        In ad velit in ex nostrud dolore cupidatat consectetur
-                        ea in ut nostrud velit in irure cillum tempor laboris
-                        sed adipisicing eu esse duis nulla non.
+                    <JSProjects/>
                     </p>
                 </AccordionItemPanel>
             </AccordionItem  >
@@ -48,9 +50,19 @@ export default function Example() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                        In ad velit in ex nostrud dolore cupidatat consectetur
-                        ea in ut nostrud velit in irure cillum tempor laboris
-                        sed adipisicing eu esse duis nulla non.
+                        <HtmlProjects/>
+                    </p>
+                </AccordionItemPanel>
+            </AccordionItem>
+            <AccordionItem style={{border:"2px solid white"}}>
+                <AccordionItemHeading>
+                    <AccordionItemButton style={{backgroundColor:"rgb(29, 29, 29)", color:"rgb(19, 185, 185)", fontSize:"30px"}}>
+                     Tailwind
+                    </AccordionItemButton>
+                </AccordionItemHeading>
+                <AccordionItemPanel>
+                    <p>
+                        <TailwindProject/>
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
@@ -62,9 +74,7 @@ export default function Example() {
                 </AccordionItemHeading>
                 <AccordionItemPanel>
                     <p>
-                        In ad velit in ex nostrud dolore cupidatat consectetur
-                        ea in ut nostrud velit in irure cillum tempor laboris
-                        sed adipisicing eu esse duis nulla non.
+                        <FigmaProjects/>
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>

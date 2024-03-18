@@ -8,7 +8,8 @@ function Home_section2() {
       <h1>Here's what I do</h1>
       <div className="content">
         <div className="left">
-          <img src="src/assets/woman-working-on-computer.png" alt="" />
+          <img src="https://i.pinimg.com/originals/ba/0e/b8/ba0eb82dbe74fb21925083c2ea7475b4.jpg" alt="" width="600px" style={{marginTop:"30%", paddingLeft:"5%"}} />
+       
         </div>
         <div className="right">
           <h1>Front End Development</h1>
