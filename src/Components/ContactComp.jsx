@@ -18,7 +18,7 @@ function ContactComp() {
             </div>
             
             <p style={{marginTop:"35%", fontSize:"18px"}}>You can contact me at the places mentioned r here. I will try to get back to you as fast as I can.</p>
-          <button id="resume">My Resume</button>
+          <button id="resume"><a href="https://drive.google.com/file/d/1T735AVuipt2CEoUMfcnh_9IYrCgYBYcS/view?usp=sharing" style={{textDecoration:"none"}}>Resume</a></button>
           </div>
          
         </div>

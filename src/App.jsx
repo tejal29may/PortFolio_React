@@ -20,7 +20,7 @@ function App() {
     backgroundColor: 'white'
   }}
   outerStyle={{
-    border: '3px solid red'
+    border: '3px solid rgb(252, 16, 86)'
   }}
 />
         <BrowserRouter>
