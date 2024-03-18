@@ -48,13 +48,13 @@
         flex-direction: column;
     }
     .content .left{
-        width: 250px;
+        width: 300px;
         /* border: 2px solid red; */
         margin: 2% auto;
     }
     
     .content .right{
-        width: 250px;
+        width: 300px;
         /* border: 2px solid blue; */
         margin: 2px auto;
     }
