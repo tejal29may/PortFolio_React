@@ -24,6 +24,7 @@ function Home_Section1() {
       delaySpeed={1000}
       backspace
       height="60px"
+      textAlign="center"
     />
     <p style={{fontSize:"22px", color:"gray", textAlign:"center", marginTop:"1%"}}>I excel in creating seamless user interfaces, uniquely merging my backend expertise to optimize performance and user experience</p>
        </div>
