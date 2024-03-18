@@ -12,7 +12,7 @@ function ContactComp() {
           <div className="left_inner">
             <div className="data">
             <div className="photo" style={{width:"100px", height:"200px"}}>
-<img src="public/assets/Tejal Mohod.jpg" alt="" style={{width:"350px", borderRadius:"20px"}}/>
+<img src="assets/Tejal Mohod.jpg" alt="" style={{width:"350px", borderRadius:"20px"}}/>
           </div>
           
             </div>
