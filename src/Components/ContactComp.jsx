@@ -10,14 +10,14 @@ function ContactComp() {
         <div className="left">
           
           <div className="left_inner">
-            <div className="data">
-            <div className="photo" style={{width:"100px", height:"200px"}}>
-<img src="assets/Tejal Mohod.jpg" alt="" style={{width:"350px", borderRadius:"20px"}}/>
+            <div className="data"><br /><br />
+            <div className="photo" style={{width:"600px", height:"200px"}}>
+<img src="https://ouch-cdn2.icons8.com/ocSKnBd7Z961SCsqrbgF3if9bYdqYwuAWtPcdxbRctY/rs:fit:368:268/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjE2/L2NkOGNjZDAzLTE3/M2MtNGJlZi1iODFl/LTFlMDYzYzMzNGY3/My5wbmc.png" alt="" style={{width:"350px", borderRadius:"20px"}}/>
           </div>
           
             </div>
             
-            <p style={{marginTop:"35%", fontSize:"18px"}}>You can contact me at the places mentioned r here. I will try to get back to you as fast as I can.</p>
+            <p style={{marginTop:"20%", fontSize:"18px"}}>You can contact me at the places mentioned r here. I will try to get back to you as fast as I can.</p>
           <button id="resume"><a href="https://drive.google.com/file/d/1T735AVuipt2CEoUMfcnh_9IYrCgYBYcS/view?usp=sharing" style={{textDecoration:"none"}}>Resume</a></button>
           </div>
          
