@@ -491,7 +491,7 @@ function About_section1() {
       </div>
 
       <div className="aboutSection2">
-        <FullWidthTabs />
+        <FullWidthTabs id="tab"/>
       </div>
     </>
   );

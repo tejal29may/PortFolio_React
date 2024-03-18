@@ -35,3 +35,33 @@ padding: 20px 30px;
     font-size: 22px;
     color: rgb(153, 152, 152);
 }
+
+@media screen and (max-width:550px) {
+    .cardss{
+        width: 290px;
+        /* height: 150px; */
+        border: 2px solid white;
+        margin: 2% auto;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        box-shadow: 0 0 10px rgb(252, 220, 16);
+        margin-left: 7%;
+    }
+    .cardss .upper{
+        width: 100%;
+        /* border: 2px solid blue; */
+        /* height: 80px; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 30px;
+        
+      
+        
+    }
+    .cardss .upper h1{
+        color: rgb(19, 185, 185);
+        font-size: 20px;
+    }
+   
+}

@@ -9,6 +9,7 @@ import Education from './Education';
 import Experience from './Experience';
 import Award from './Award';
 function CustomTabPanel(props) {
+ 
   const { children, value, index, ...other } = props;
 
   return (
@@ -49,7 +50,7 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%' }} >
       <Box sx={{ borderBottom: 1, borderColor: 'divider' ,display:"flex", justifyContent:"center",gap:"20%"}}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Education" {...a11yProps(0)} style={{color:"white" ,fontSize:"20px"}}/>

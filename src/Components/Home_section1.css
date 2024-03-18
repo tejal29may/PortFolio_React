@@ -117,3 +117,12 @@ text-align: center;
   border: 2px solid red;
   margin: 3% auto;
 }
+
+@media screen and (max-width:550px){
+  .main .left{
+    width: 100%;
+    /* border: 7px solid green; */
+    height: 500px;
+    padding: 5px 15px;
+  }
+}

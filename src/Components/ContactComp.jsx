@@ -11,7 +11,7 @@ function ContactComp() {
           
           <div className="left_inner">
             <div className="data"><br /><br />
-            <div className="photo" style={{width:"600px", height:"200px"}}>
+            <div className="photo" style={{ height:"200px"}}>
 <img src="https://ouch-cdn2.icons8.com/ocSKnBd7Z961SCsqrbgF3if9bYdqYwuAWtPcdxbRctY/rs:fit:368:268/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjE2/L2NkOGNjZDAzLTE3/M2MtNGJlZi1iODFl/LTFlMDYzYzMzNGY3/My5wbmc.png" alt="" style={{width:"350px", borderRadius:"20px"}}/>
           </div>
           
