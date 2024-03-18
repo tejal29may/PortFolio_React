@@ -29,7 +29,9 @@
     text-decoration: none;
 }
 .active{
-    color: rgb(19, 185, 185);
+    /* color: rgb(19, 185, 185); */
+    color: yellow;
+ 
 }
 li{
     text-decoration: none;

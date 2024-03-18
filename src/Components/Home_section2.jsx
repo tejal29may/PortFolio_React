@@ -206,11 +206,11 @@ function Home_section2() {
             </div>
             <div className="lower">
               <p>
-                ⚡ Develop highly interactive User Interfaces  for
+              ✨ Develop highly interactive User Interfaces  for
                 web applications
               </p>
               <p>
-                ⚡ Building responsive website front end using
+                ✨  Building responsive website front end using
                 ReactJS,Redux
               </p>
             </div>

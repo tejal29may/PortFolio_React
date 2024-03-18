@@ -1,5 +1,6 @@
 import React from "react";
 import "./Experience.css";
+import 'animate.css';
 function Experience() {
   const data = [
     {
@@ -31,14 +32,14 @@ function Experience() {
     <>
       {data.map((ele, index, array) => {
         return (
-          <div className="cardss">
+          <div className="cardss animate__animated animate__fadeInUp animate__slow">
             <div className="upper">
               <h1>{ele.year}</h1>
             </div>
-            <hr id="hred" style={{backgroundColor:"red"}}/>
+            <hr id="hred" style={{backgroundColor:"white"}}/>
             <div className="lower">
               <div className="left">
-                <p style={{color:"white"}}>{ele.name}</p>
+                <p style={{color:"rgb(252, 16, 86)"}}>{ele.name}</p>
                 <p>{ele.role}</p>
                 <p>{ele.location}</p>
               </div>

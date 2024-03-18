@@ -5,6 +5,7 @@
     margin: 2% auto;
     border-radius: 10px;
     margin-bottom: 5%;
+    box-shadow: 0 0 10px rgb(252, 220, 16);
 }
 .cardss .upper{
     width: 100%;

@@ -1,11 +1,18 @@
 import React from "react";
+import { useEffect } from "react";
 import "./About_section1.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import 'animate.css';
 import FullWidthTabs from "./TabSwitch";
 function About_section1() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <>
       <div className="aboutMain">
-        <div className="left">
+        <div className="left animate__animated animate__fadeInUp animate__slow">
           {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             enable-background="new 0 0 120 180"
@@ -453,7 +460,7 @@ function About_section1() {
             ></ellipse>
           </svg>
         </div>
-        <div className="right">
+        <div className="right animate__animated animate__fadeInUp animate__slow">
           <h1
             style={{
               color: "rgb(19, 185, 185)",

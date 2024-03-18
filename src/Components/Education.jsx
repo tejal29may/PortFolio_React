@@ -1,6 +1,8 @@
 import React from "react";
 import "./Education.css";
+import 'animate.css';
 function Education() {
+ 
   const data = [
     {
         degree:"Bachelors of Engineering",
@@ -32,10 +34,10 @@ function Education() {
         return (
           <div className="cardss">
             <div className="upper">
-              <h1>{ele.degree}</h1>
-              <h3 style={{color:"red"}}>{ele.year}</h3>
+              <h1 style={{color:"rgb(19, 185, 185)"}}>{ele.degree}</h1>
+              <h3 style={{color:"rgb(252, 16, 86)"}}>{ele.year}</h3>
             </div>
-            <hr id="hred" />
+            <hr id="hred" style={{backgroundColor:"white"}}/>
             <div className="lower">
               <p style={{color:"white"}}>{ele.college}</p>
               <p>{ele.branch}</p>

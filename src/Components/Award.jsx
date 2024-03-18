@@ -1,5 +1,5 @@
 import React from 'react'
-
+import 'animate.css';
 function Award() {
     const data = [
         {
@@ -18,14 +18,14 @@ function Award() {
     <>
     {data.map((ele, index, array) => {
       return (
-        <div className="cardss">
+        <div className="cardss animate__animated animate__fadeInUp animate__slow">
             <div className="upper">
               <h1>{ele.year}</h1>
              <img src={ele.img} alt="" width={60}/>
             </div>
             <hr id="hred" />
             <div className="lower">
-              <p style={{color:"red"}}>{ele.name}</p>
+              <p style={{color:"rgb(252, 16, 86)"}}>{ele.name}</p>
               <p>{ele.location}</p><br />
               <p>{ele.details}</p>
             </div>

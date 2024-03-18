@@ -1,7 +1,7 @@
 :root {
     --clr-neutral-900: hsl(207, 19%, 9%);
     --clr-neutral-100: hsl(0, 0%, 100%);
-    --clr-accent-400: hsl(8, 73%, 52%);
+    --clr-accent-400: rgb(252, 16, 86);
   }
   
   
@@ -104,7 +104,7 @@
     display: inline-block;
     text-decoration: none;
     color: var(--clr-neutral-900);
-    background-color: var(--clr-accent-400);
+    background-color: rgb(252, 16, 86);
     padding: 0.5em 1.25em;
     border-radius: 0.25rem;
   }

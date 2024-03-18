@@ -15,6 +15,7 @@
     "@mui/material": "^5.15.13",
     "accordion": "^3.0.2",
     "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
     "react": "^18.2.0",
     "react-accessible-accordion": "^5.0.0",
     "react-animated-cursor": "^2.11.2",

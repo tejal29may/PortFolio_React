@@ -8,7 +8,8 @@ function Nav() {
     <>
       <div className="nav animate__animated animate__fadeInDown  animate__slow">
         <div className="left">
-          <p>Tejal Mohod</p>
+          
+          <NavLink to="/" style={{textDecoration:"none"}}><p>Tejal Mohod</p></NavLink>
         </div>
         <div className="right">
           <ul>
@@ -16,8 +17,9 @@ function Nav() {
             <li><NavLink to="/About" style={{textDecoration:"none"}}>About</NavLink></li>
             <li><NavLink to="/Projects" style={{textDecoration:"none"}}>Projects</NavLink></li>
             <li><NavLink to="/Contact" style={{textDecoration:"none"}}>Contact </NavLink></li>
+            <li>Mode</li>
             
-            <li><button>Mode</button></li>
+            {/* <li><button style={{backgroundColor:"pink", color:"black", padding:"3px 15px", border:"none", borderRadius:"5px", fontSize:"20px"}}>mode</button></li> */}
             
           </ul>
         </div>

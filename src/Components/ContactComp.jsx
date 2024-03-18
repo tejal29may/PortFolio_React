@@ -1,23 +1,23 @@
 import React from "react";
 import "../Components/Contact.css";
-
+import 'animate.css';
 
 function ContactComp() {
   return (
     <>
    
-      <div className="mainContainer">
+      <div className="mainContainer animate__animated animate__fadeInUp animate__slow">
         <div className="left">
           
           <div className="left_inner">
             <div className="data">
             <div className="photo" style={{width:"100px", height:"200px"}}>
-<img src="src/assets/Tejal Mohod.jpg" alt="" style={{width:"350px", borderRadius:"20px"}}/>
+<img src="public/assets/Tejal Mohod.jpg" alt="" style={{width:"350px", borderRadius:"20px"}}/>
           </div>
           
             </div>
             
-            <p style={{marginTop:"35%", fontSize:"18px"}}>You can contact me at the places mentioned in Home Page or here. I will try to get back to you as fast as I can.</p>
+            <p style={{marginTop:"35%", fontSize:"18px"}}>You can contact me at the places mentioned r here. I will try to get back to you as fast as I can.</p>
           <button id="resume">My Resume</button>
           </div>
          
