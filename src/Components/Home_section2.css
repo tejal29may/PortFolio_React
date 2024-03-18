@@ -48,10 +48,26 @@
         flex-direction: column;
     }
     .content .left{
-        width: 100%;
+        width: 250px;
         /* border: 2px solid red; */
+        margin: 2% auto;
+    }
+    
+    .content .right{
+        width: 250px;
+        /* border: 2px solid blue; */
+        margin: 2px auto;
+    }
+    .content .right p{
+        font-size: 18px;
+    }
+    .second h1{
+        font-size: 25px;
+    }
+    .content .right h1{
+        font-size: 25px;
     }
     .content .left img{
-        width: 100%;
+        width:100%;
     }
 }
