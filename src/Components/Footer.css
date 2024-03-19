@@ -1,24 +1,37 @@
-.footer li {
+.footer ul li {
     box-shadow: 0 0 10px cyan;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+.footer ul li:hover{
+    box-shadow: 0 0 15px red;
 }
 
 @media screen and (max-width:550px){
     
     .footer ul{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
         width: 290px;
         /* border: 2px solid pink; */
         width: 200px;
         margin: 2% auto;
-        padding: 10px 80px;
-        gap: 3%;
+        /* padding: 10px 0px;s */
+        gap: 8%;
     }
     hr{
         width: 200px;
         margin:  2px auto;
+    }
+    .footer ul li{
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+    .footer ul li:hover{
+        box-shadow: 0 0 10px red;
     }
     
 }

@@ -12,11 +12,11 @@ function Footer() {
    <br /><hr style={{border:"none", height:"1px", backgroundColor:"gray"}}/><br /><br />
     <div className="footer" style={{width:"100%", height:"30px",}}>
         <ul style={{display:"flex", listStyle:"none", justifyContent:"center", gap:"5%"}}>
-            <li style={{fontSize:"25px", border:"1px ", borderRadius:"50%", padding:"10px 15px"}} ><ImGithub /></li>
-            <li style={{fontSize:"25px", border:"1px ", borderRadius:"50%" , padding:"10px 15px"}} ><BsInstagram/></li>
-            <li style={{fontSize:"25px", border:"1px ", borderRadius:"50%" , padding:"10px 15px"}} ><BsLinkedin /></li>
-            <li style={{fontSize:"25px", border:"1px ", borderRadius:"50%" , padding:"10px 15px"}} ><BsTwitter /></li>
-            <li style={{fontSize:"25px", border:"1px ", borderRadius:"50%" , padding:"10px 15px"}} ><HiMail /></li>
+            <li  ><ImGithub /></li>
+            <li  ><BsInstagram/></li>
+            <li  ><BsLinkedin /></li>
+            <li  ><BsTwitter /></li>
+            <li  ><HiMail /></li>
         </ul>
     </div>
     <br /><br />
