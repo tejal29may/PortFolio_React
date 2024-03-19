@@ -122,7 +122,17 @@ text-align: center;
   .main .left{
     width: 100%;
     /* border: 7px solid green; */
-    height: 500px;
-    padding: 5px 15px;
+    /* height: 200px; */
+    /* padding: 5px 15px; */
+    margin: 1px auto;
+  }
+  .main .left h1{
+    font-size: 40px;
+  }
+  .main .left p{
+    font-size: 18px;
+  }
+  #p{
+    display: none;
   }
 }

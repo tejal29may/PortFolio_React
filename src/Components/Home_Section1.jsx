@@ -34,7 +34,7 @@ function Home_Section1() {
             height="60px"
             textAlign="center"
           /></p>
-          <p
+          <p id="p"
             style={{
               fontSize: "22px",
               color: "gray",

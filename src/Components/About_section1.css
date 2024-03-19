@@ -72,7 +72,10 @@ body{
         
     }
     .aboutMain .left{
-        width: 100%;
+        width: 320px;
+    }
+    .aboutMain .left img{
+        width: 300px;
     }
     .aboutMain .right{
         width: 320px;
